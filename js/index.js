@@ -1,4 +1,4 @@
 function buttonStart(){
 
-    window.open("../html/Chronologie.html",'_self');
+    window.open("./html/Chronologie.html",'_self');
 }
