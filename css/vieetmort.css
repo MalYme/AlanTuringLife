@@ -14,7 +14,8 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     /* align-items:center; */
-    gap: 10px;}
+    gap: 10px;
+}
 
 #naissence_et_mort{
     display: flex;
@@ -89,4 +90,35 @@ h1{
     /* border-style: solid; */
     padding: 5px;
     
+}
+
+@media only screen and (max-width: 1000px) {
+  h1{
+    font-size: 60px;
+
+  }
+    p {
+    font-size: 40px;
+  }
+  div div{
+    width: 98vw;
+    justify-items: center;
+    }   
+    html, body {margin: 0; overflow:scroll}
+    button{
+    height: 80px;
+    width: 90vw;
+    border: black;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 4px;
+
+
+    justify-self: center;
+
+    font-size: 180%;
+
+    margin-left: 5vw;
+
+}
 }
