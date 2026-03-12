@@ -20,28 +20,35 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  
 }
 
 div div{
-    width: 50vw;
+    width: 49vw;
+    justify-items: center;
+    height: 90vh;
+    border-style: solid;
+    border-radius: 10px;
 }
 
-ul{
-    font-size: 25px;
-
+#vie{
+    background-color: rgba(32, 31, 31, 0.5);
+}
+#mort{
+    background-color: rgba(32, 31, 31, 0.5);
 }
 
-ul li{
-    margin-top: 20px;
-
+p{
     font-family: "Source Code Pro", monospace;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
-    font-size: 130%;
-    font-weight: 500;
+    font-size: 110%;
+    font-weight: 300;
 
-    
+    margin: 30px;
+
 }
 
 button{
@@ -77,7 +84,7 @@ h1{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 30px;
     border: black;
     /* border-style: solid; */
     padding: 5px;
