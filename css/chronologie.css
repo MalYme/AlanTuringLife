@@ -84,28 +84,22 @@ h1{
 
 #birth:hover{
     color: brown;
-    font-size: 25px;
 }
 
 #turing_paper:hover{
     color: rgb(38, 30, 156);
-    font-size: 25px;
 }
 #world_war:hover{
     color: orange;
-    font-size: 25px;
 }
 #computer_work:hover{
     color: rgb(0, 0, 255);
-    font-size: 25px;
 }
 #turing_test:hover{
     color: rgb(255, 255, 0);
-    font-size: 25px;
 }
 
 #death:hover{
     color: navy;
-    font-size: 25px;
 }
 
