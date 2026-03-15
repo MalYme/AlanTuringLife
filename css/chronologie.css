@@ -3,7 +3,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-html, body {margin: 0; overflow: hidden}
+html, body {margin: 0; overflow: hidden;
+    min-height: 100vh;
+    width: 100vw;
+}
 
 body{
     background: linear-gradient(70deg, #5588e7, #d63578, #0d6777);
@@ -15,7 +18,6 @@ body{
     flex-wrap: wrap;
     /* align-items:center; */
     gap: 10px;
-    padding-left: 100px ;
 }
 
 ul{
@@ -52,6 +54,7 @@ button{
     font-weight: 500;
 
     margin: 5px;
+    margin-left: 15px;
 
 }
 
@@ -73,6 +76,7 @@ h1{
     /* border-style: solid; */
     padding: 5px;
     text-decoration: underline;
+    margin-left: 15px;
     
 }
 
