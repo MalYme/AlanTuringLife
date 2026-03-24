@@ -17,6 +17,13 @@ body{
     gap: 10px;
 }
 
+iframe{
+    margin-left: 20px;
+    box-shadow: 8px 12px 16px rgba(0, 0, 0, 0.8); /* Ombre plus prononcée */
+    cursor: pointer;
+    background-color: rgb(141, 56, 56);
+    outline: solid;
+}
 
 button{
     height: 40px;
