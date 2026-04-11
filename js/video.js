@@ -1,8 +1,11 @@
 var score = 0
 var score_total = 0
-function buttonStart(){
-
-    window.open("video.html",'_self');
+function buttonFinish(){
+    
+    alert("Votre score final est de "+score+"/"+score_total)
+    alert("Merci de votre visite, site créer par Merlin et Zakriya")
+    score = 0
+    score_total = 0
 }
 
 
